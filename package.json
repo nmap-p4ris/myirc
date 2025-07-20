@@ -1,0 +1,41 @@
+{
+  "name": "my_irc",
+  "version": "1.0.0",
+  "description": "My_IRC",
+  "main": "main.js",
+  "scripts": {
+    "start": "node index.js",
+    "electron": "electron .",
+    "build": "cd client && npm run build",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "electron": "^22.3.27",
+    "electron-builder": "^24.13.3"
+  },
+  "author": "Stefan-Paris",
+  "license": "MIT",
+  "build": {
+    "appId": "com.myirc.app",
+    "productName": "My_IRC",
+    "files": [
+      "main.js",
+      "index.js",
+      "client/build/**/*"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}
