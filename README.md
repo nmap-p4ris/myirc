@@ -132,10 +132,6 @@ Run the backend, frontend, and Electron app in separate terminals.
 - Customize the Electron window (e.g., remove menu bar, add custom icon).
 - Bundle the backend into the Electron app for a standalone experience.
 
-## License
-
-MIT License - see [LICENSE](LICENSE) for details.
-
 ## Author
 
-Stefan-Paris
+Paduraru Stefan-Paris
