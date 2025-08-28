@@ -39,7 +39,7 @@ my_irc/
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/my_irc.git
+   git clone https://github.com/nmap-p4ris/myirc
    cd my_irc
    ```
 
